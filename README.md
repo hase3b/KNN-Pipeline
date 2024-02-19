@@ -1,7 +1,7 @@
 # KNN-Pipeline
 This repository contains an implementation of a comprehensive machine-learning pipeline tailored for classification tasks. The pipeline encompasses various stages including data collection, cleaning, transformation, exploratory data analysis (EDA), feature engineering, dimensionality reduction, manual data splitting, cross-validation, model selection, training, and evaluation.
 
-This repository contains Python scripts for the pipeline's support and master functions along with the pipeline's execution on the following 5 datasets. Compiled results are included in this repository, and posted separately.
+This repository contains a Jupyter Notebook for the pipeline's support and master functions along with the pipeline's execution on the following 5 datasets. Compiled results are included in this repository, and posted separately.
 
 # Datasets
 ### Dataset - 1<br />
