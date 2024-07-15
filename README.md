@@ -4,7 +4,7 @@ This repository contains an implementation of a comprehensive machine-learning p
 ### Repository Structure
 This repository contains a Jupyter Notebook for the pipeline's support and master functions along with the pipeline's execution on multiple datasets including both classification and regression problems. Further, an excel file shows the compiled results.
 
-## Pipeline Function Flow
+## Pipeline Flow
 1) Fetch Data: Data is sourced from the UCI Machine Learning Repository.
 2) Data Cleaning: Treatment of missing and duplicate values to ensure data quality.
 3) Exploratory Data Analysis (EDA): Numerical Summary: Summarizing numerical features to understand data distribution and characteristics.
@@ -22,19 +22,19 @@ This repository contains a Jupyter Notebook for the pipeline's support and maste
 10) Data Splitting & Cross-Validation: Splitting the data into training and testing sets and implementing cross-validation to ensure robust model evaluation.
 11) Model Selection (Lazy Learner): Utilizing a lazy learner approach to evaluate multiple models quickly and select the best performing one.
 12) Model Training (KNN): Training the K-Nearest Neighbors (KNN) model.
-  * Non-CV:
-      * Classification: Training without cross-validation.
-      * Regression: Training without cross-validation.
-  * CV:
-      * Classification: Training with cross-validation.
-      * Regression: Training with cross-validation.
+    * Non-CV:
+       * Classification: Training without cross-validation.
+       * Regression: Training without cross-validation.
+    * CV:
+       * Classification: Training with cross-validation.
+       * Regression: Training with cross-validation.
 13) Model Evaluation: Evaluating model performance using various metrics.
-  * Non-CV:
-      * Classification: Precision, recall, F1-score.
-      * Regression: Mean squared error (MSE), mean absolute error (MAE), root mean squared error (RMSE), R-squared, Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), p-value.
-  * CV:
-      * Classification: Evaluating classification performance with cross-validation.
-      * Regression: Evaluating regression performance with cross-validation.
+    * Non-CV:
+       * Classification: Precision, recall, F1-score.
+       * Regression: Mean squared error (MSE), mean absolute error (MAE), root mean squared error (RMSE), R-squared, Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), p-value.
+    * CV:
+       * Classification: Evaluating classification performance with cross-validation.
+       * Regression: Evaluating regression performance with cross-validation.
 
 ### Future Work
 * Implement outliers detection and treatment.
