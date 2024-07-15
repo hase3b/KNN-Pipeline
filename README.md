@@ -20,7 +20,7 @@ This repository contains Jupyter Notebooks for the pipeline's support and master
     * Dimensionality Reduction (PCA): Reducing the feature space while retaining most of the variance.
 9) PCA Visualization: Visualizing the principal components to understand data separability (for classification tasks only).
 10) Data Splitting & Cross-Validation: Splitting the data into training and testing sets and implementing cross-validation to ensure robust model evaluation.
-11) Model Selection (Lazy Learner): Utilizing a lazy learner approach to evaluate multiple models quickly and select the best performing one.
+11) Model Selection (Lazy-Predict): Utilizing lazy-predict approach to evaluate multiple models quickly and select the best performing one.
 12) Model Training (KNN): Training the K-Nearest Neighbors (KNN) model.
     * Non-CV:
        * Classification
