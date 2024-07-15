@@ -1,8 +1,8 @@
 # KNN-Pipeline
-This repository contains an implementation of a comprehensive machine-learning pipeline tailored for both classification and regression tasks. The pipeline encompasses various stages, including data collection, cleaning, transformation, exploratory data analysis (EDA), feature selection, dimensionality reduction, data splitting, cross-validation, model selection, training, and evaluation. Currently, the pipeline only supports the K-Nearest Neighbors (KNN) algorithm since the aim of the project is to demonstrate the pipeline execution for such tasks and the pipeline can be easily modified to support other algorithms.
+This repository contains an implementation of a comprehensive machine-learning pipeline tailored for both classification and regression tasks. The pipeline encompasses various stages, including data collection, cleaning, transformation, exploratory data analysis (EDA), feature selection, dimensionality reduction, data splitting, cross-validation, model selection, training, and evaluation. Currently, the pipeline only supports the K-Nearest Neighbors (KNN) algorithm since the aim of the project is to demonstrate the pipeline execution and the pipeline can be easily modified to support other algorithms.
 
 ### Repository Structure
-This repository contains a Jupyter Notebook for the pipeline's support and master functions along with the pipeline's execution on multiple datasets including both classification and regression problems. Further, an excel file shows the compiled results.
+This repository contains Jupyter Notebooks for the pipeline's support and master functions along with the pipeline's execution on multiple datasets including both classification and regression problems. Further, an excel file shows the compiled results.
 
 ## Pipeline Flow
 1) Fetch Data: Data is sourced from the UCI Machine Learning Repository.
@@ -23,11 +23,11 @@ This repository contains a Jupyter Notebook for the pipeline's support and maste
 11) Model Selection (Lazy Learner): Utilizing a lazy learner approach to evaluate multiple models quickly and select the best performing one.
 12) Model Training (KNN): Training the K-Nearest Neighbors (KNN) model.
     * Non-CV:
-       * Classification: Training without cross-validation.
-       * Regression: Training without cross-validation.
+       * Classification
+       * Regression
     * CV:
-       * Classification: Training with cross-validation.
-       * Regression: Training with cross-validation.
+       * Classification
+       * Regression
 13) Model Evaluation: Evaluating model performance using various metrics.
     * Non-CV:
        * Classification: Precision, recall, F1-score.
